@@ -1,4 +1,4 @@
-"""MindSpore MCP tools backed by the official models JSON."""
+﻿"""MindSpore MCP tools backed by the official models JSON."""
 
 from __future__ import annotations
 
@@ -7,7 +7,7 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
-MODEL_FILE = Path(__file__).resolve().parents[1] / "data" / "mindspore_official_models.json"
+MODEL_FILE = Path(__file__).resolve().parents[2] / "data" / "mindspore_official_models.json"
 
 
 @lru_cache(maxsize=1)

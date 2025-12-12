@@ -21,7 +21,7 @@ def resource(uri: str) -> Callable:
     return decorator
 
 
-MODELS_PATH = Path(__file__).resolve().parents[1] / "data" / "mindspore_official_models.json"
+MODELS_PATH = Path(__file__).resolve().parents[2] / "data" / "mindspore_official_models.json"
 
 
 @resource("mindspore://models/official")
