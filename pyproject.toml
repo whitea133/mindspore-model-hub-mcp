@@ -11,9 +11,13 @@ dependencies = [
     "requests>=2.32.5",
 ]
 
-[[tool.uv.index]]
-name = "qinghua"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["mindspore_mcp"]
 
 [[tool.uv.index]]
 name = "aliyun"
