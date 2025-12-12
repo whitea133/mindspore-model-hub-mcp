@@ -6,9 +6,9 @@ import inspect
 
 from mcp.server.fastmcp import FastMCP
 
-import prompt as prompt_module
-import resource as resource_module
-import tools
+from . import prompt as prompt_module
+from . import resource as resource_module
+from . import tools
 
 
 def register_module_functions(mcp: FastMCP, module) -> None:
