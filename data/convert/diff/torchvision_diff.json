@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 37,
+    "diff_rows": 27,
+    "version_hints": [
+      "TorchVision 0.9.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.CelebA",
+      "mindspore": "mindspore.dataset.CelebADataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.Cityscapes",
+      "mindspore": "mindspore.dataset.CityscapesDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.CIFAR10",
+      "mindspore": "mindspore.dataset.Cifar10Dataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.CIFAR100",
+      "mindspore": "mindspore.dataset.Cifar100Dataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.CocoDetection",
+      "mindspore": "mindspore.dataset.CocoDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.ImageFolder",
+      "mindspore": "mindspore.dataset.ImageFolderDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.MNIST",
+      "mindspore": "mindspore.dataset.MnistDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.VOCDetection",
+      "mindspore": "mindspore.dataset.VOCDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.VOCSegmentation",
+      "mindspore": "mindspore.dataset.VOCDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.ops.nms",
+      "mindspore": "mindspore.ops.NMSWithMask",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.ops.roi_align",
+      "mindspore": "mindspore.ops.ROIAlign",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.ConvertImageDtype",
+      "mindspore": "mindspore.dataset.transforms.TypeCast",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.Normalize",
+      "mindspore": "mindspore.dataset.vision.Normalize",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.Pad",
+      "mindspore": "mindspore.dataset.vision.Pad",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomAffine",
+      "mindspore": "mindspore.dataset.vision.RandomAffine",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomApply",
+      "mindspore": "mindspore.dataset.transforms.RandomApply",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomCrop",
+      "mindspore": "mindspore.dataset.vision.RandomCrop",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomGrayscale",
+      "mindspore": "mindspore.dataset.vision.RandomGrayscale",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomHorizontalFlip",
+      "mindspore": "mindspore.dataset.vision.RandomHorizontalFlip",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomPerspective",
+      "mindspore": "mindspore.dataset.vision.RandomPerspective",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomResizedCrop",
+      "mindspore": "mindspore.dataset.vision.RandomResizedCrop",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomRotation",
+      "mindspore": "mindspore.dataset.vision.RandomRotation",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomVerticalFlip",
+      "mindspore": "mindspore.dataset.vision.RandomVerticalFlip",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.TenCrop",
+      "mindspore": "mindspore.dataset.vision.TenCrop",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.ToPILImage",
+      "mindspore": "mindspore.dataset.vision.ToPIL",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.ToTensor",
+      "mindspore": "mindspore.dataset.vision.ToTensor",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.ops.deform_conv2d",
+      "mindspore": "mindspore.ops.deformable_conv2d",
+      "description": "diff"
+    }
+  ]
+}

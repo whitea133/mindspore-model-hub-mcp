@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 37,
+    "diff_rows": 27,
+    "version_hints": [
+      "TorchVision 0.9.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.CenterCrop",
+      "mindspore": "mindspore.dataset.vision.CenterCrop",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.ColorJitter",
+      "mindspore": "mindspore.dataset.vision.RandomColorAdjust",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.Compose",
+      "mindspore": "mindspore.dataset.transforms.Compose",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.FiveCrop",
+      "mindspore": "mindspore.dataset.vision.FiveCrop",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.GaussianBlur",
+      "mindspore": "mindspore.dataset.vision.GaussianBlur",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.Grayscale",
+      "mindspore": "mindspore.dataset.vision.Grayscale",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.LinearTransformation",
+      "mindspore": "mindspore.dataset.vision.LinearTransformation",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomChoice",
+      "mindspore": "mindspore.dataset.transforms.RandomChoice",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomOrder",
+      "mindspore": "mindspore.dataset.transforms.RandomOrder",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.Resize",
+      "mindspore": "mindspore.dataset.vision.Resize",
+      "description": "Consistent"
+    }
+  ]
+}

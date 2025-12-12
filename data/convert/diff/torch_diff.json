@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 186,
+    "diff_rows": 12,
+    "version_hints": [
+      "PyTorch 2.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.amax",
+      "mindspore": "mindspore.mint.amax",
+      "description": "The functions are consistent, but the default value of dim is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.amin",
+      "mindspore": "mindspore.mint.amin",
+      "description": "The functions are consistent, but the default value of dim is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.arange",
+      "mindspore": "mindspore.mint.arange",
+      "description": "The functions are consistent, but the default value of end is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.arcsin",
+      "mindspore": "mindspore.mint.arcsin",
+      "description": "Consistent functions, inconsistent parameter names."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.median",
+      "mindspore": "mindspore.mint.median",
+      "description": "The functions are consistent, but the default value of dim is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.meshgrid",
+      "mindspore": "mindspore.mint.meshgrid",
+      "description": "The functions are consistent, but the default value of indexing is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nansum",
+      "mindspore": "mindspore.mint.nansum",
+      "description": "The functions are consistent, but the default value of end is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.normal",
+      "mindspore": "mindspore.mint.normal",
+      "description": "The parameters of interface overloading are different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.randint_like",
+      "mindspore": "mindspore.mint.randint_like",
+      "description": "The functions are consistent, but the default value of low is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.repeat_interleave",
+      "mindspore": "mindspore.mint.repeat_interleave",
+      "description": "Consistent functions, PyTorch involves overloading."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.searchsorted",
+      "mindspore": "mindspore.mint.searchsorted",
+      "description": "The functions are consistent, but the default value of side is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.topk",
+      "mindspore": "mindspore.mint.topk",
+      "description": "The functions are consistent, but the default value of dim is different."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 47,
+    "diff_rows": 11,
+    "version_hints": [
+      "PyTorch 2.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.dropout2d",
+      "mindspore": "mindspore.mint.nn.functional.dropout2d",
+      "description": "Consistent functions, MindSpore does not contain the parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.elu",
+      "mindspore": "mindspore.mint.nn.functional.elu",
+      "description": "Consistent functions, MindSpore does not contain the parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.embedding",
+      "mindspore": "mindspore.mint.nn.functional.embedding",
+      "description": "Consistent functions, MindSpore does not contain the parameter sparse."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.grid_sample",
+      "mindspore": "mindspore.mint.nn.functional.grid_sample",
+      "description": "Consistent functions, but the default value of align_corners is different."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.hardsigmoid",
+      "mindspore": "mindspore.mint.nn.functional.hardsigmoid",
+      "description": "Consistent functions, MindSpore has no parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.hardswish",
+      "mindspore": "mindspore.mint.nn.functional.hardswish",
+      "description": "Consistent functions, MindSpore has no parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.interpolate",
+      "mindspore": "mindspore.mint.nn.functional.interpolate",
+      "description": "Consistent functions, MindSpore has no parameter antialias."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.leaky_relu",
+      "mindspore": "mindspore.mint.nn.functional.leaky_relu",
+      "description": "Consistent functions, MindSpore has no parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.mish",
+      "mindspore": "mindspore.mint.nn.functional.mish",
+      "description": "Consistent functions, MindSpore has no parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.selu",
+      "mindspore": "mindspore.mint.nn.functional.selu",
+      "description": "Consistent functions, MindSpore does not contain parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.silu",
+      "mindspore": "mindspore.mint.nn.functional.silu",
+      "description": "Consistent functions, MindSpore does not contain parameter inplace."
+    }
+  ]
+}

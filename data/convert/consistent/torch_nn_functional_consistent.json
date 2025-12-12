@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 47,
+    "diff_rows": 11,
+    "version_hints": [
+      "PyTorch 2.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.adaptive_avg_pool1d",
+      "mindspore": "mindspore.mint.nn.functional.adaptive_avg_pool1d",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.adaptive_avg_pool2d",
+      "mindspore": "mindspore.mint.nn.functional.adaptive_avg_pool2d",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.avg_pool1d",
+      "mindspore": "mindspore.mint.nn.functional.avg_pool1d",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.avg_pool2d",
+      "mindspore": "mindspore.mint.nn.functional.avg_pool2d",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.batch_norm",
+      "mindspore": "mindspore.mint.nn.functional.batch_norm",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.binary_cross_entropy",
+      "mindspore": "mindspore.mint.nn.functional.binary_cross_entropy",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.binary_cross_entropy_with_logits",
+      "mindspore": "mindspore.mint.nn.functional.binary_cross_entropy_with_logits",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.conv2d",
+      "mindspore": "mindspore.mint.nn.functional.conv2d",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.conv3d",
+      "mindspore": "mindspore.mint.nn.functional.conv3d",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.conv_transpose2d",
+      "mindspore": "mindspore.mint.nn.functional.conv_transpose2d",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.dropout",
+      "mindspore": "mindspore.mint.nn.functional.dropout",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.fold",
+      "mindspore": "mindspore.mint.nn.functional.fold",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.gelu",
+      "mindspore": "mindspore.mint.nn.functional.gelu",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.hardshrink",
+      "mindspore": "mindspore.mint.nn.functional.hardshrink",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.l1_loss",
+      "mindspore": "mindspore.mint.nn.functional.l1_loss",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.linear",
+      "mindspore": "mindspore.mint.nn.functional.linear",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.log_softmax",
+      "mindspore": "mindspore.mint.nn.functional.log_softmax",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.logsigmoid",
+      "mindspore": "mindspore.mint.nn.functional.logsigmoid",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.max_pool2d",
+      "mindspore": "mindspore.mint.nn.functional.max_pool2d",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.max_unpool2d",
+      "mindspore": "mindspore.mint.nn.functional.max_unpool2d",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.mse_loss",
+      "mindspore": "mindspore.mint.nn.functional.mse_loss",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.nll_loss",
+      "mindspore": "mindspore.mint.nn.functional.nll_loss",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.normalize",
+      "mindspore": "mindspore.mint.nn.functional.normalize",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.one_hot",
+      "mindspore": "mindspore.mint.nn.functional.one_hot",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.pad",
+      "mindspore": "mindspore.mint.nn.functional.pad",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.prelu",
+      "mindspore": "mindspore.mint.nn.functional.prelu",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.relu",
+      "mindspore": "mindspore.mint.nn.functional.relu",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.relu6",
+      "mindspore": "mindspore.mint.nn.functional.relu6",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.relu_",
+      "mindspore": "mindspore.mint.nn.functional.relu_",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.sigmoid",
+      "mindspore": "mindspore.mint.nn.functional.sigmoid",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.smooth_l1_loss",
+      "mindspore": "mindspore.mint.nn.functional.smooth_l1_loss",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.softmax",
+      "mindspore": "mindspore.mint.nn.functional.softmax",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.softplus",
+      "mindspore": "mindspore.mint.nn.functional.softplus",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.softshrink",
+      "mindspore": "mindspore.mint.nn.functional.softshrink",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.tanh",
+      "mindspore": "mindspore.mint.nn.functional.tanh",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.unfold",
+      "mindspore": "mindspore.mint.nn.functional.unfold",
+      "description": "Consistent"
+    }
+  ]
+}

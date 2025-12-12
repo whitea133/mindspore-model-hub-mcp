@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 7,
+    "diff_rows": 0,
+    "version_hints": [
+      "PyTorch 2.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torch.special",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.special.erfc",
+      "mindspore": "mindspore.mint.special.erfc",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.special",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.special.exp2",
+      "mindspore": "mindspore.mint.special.exp2",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.special",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.special.expm1",
+      "mindspore": "mindspore.mint.special.expm1",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.special",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.special.log1p",
+      "mindspore": "mindspore.mint.special.log1p",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.special",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.special.log_softmax",
+      "mindspore": "mindspore.mint.special.log_softmax",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.special",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.special.round",
+      "mindspore": "mindspore.mint.special.round",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.special",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.special.sinc",
+      "mindspore": "mindspore.mint.special.sinc",
+      "description": "Consistent"
+    }
+  ]
+}

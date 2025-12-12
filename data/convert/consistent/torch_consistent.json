@@ -1,0 +1,1231 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 186,
+    "diff_rows": 12,
+    "version_hints": [
+      "PyTorch 2.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.abs",
+      "mindspore": "mindspore.mint.abs",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.acos",
+      "mindspore": "mindspore.mint.acos",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.acosh",
+      "mindspore": "mindspore.mint.acosh",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.add",
+      "mindspore": "mindspore.mint.add",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.addbmm",
+      "mindspore": "mindspore.mint.addbmm",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.addmm",
+      "mindspore": "mindspore.mint.addmm",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.addmv",
+      "mindspore": "mindspore.mint.addmv",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.all",
+      "mindspore": "mindspore.mint.all",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.allclose",
+      "mindspore": "mindspore.mint.allclose",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.any",
+      "mindspore": "mindspore.mint.any",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.arccos",
+      "mindspore": "mindspore.mint.arccos",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.arccosh",
+      "mindspore": "mindspore.mint.arccosh",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.arcsinh",
+      "mindspore": "mindspore.mint.arcsinh",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.arctan",
+      "mindspore": "mindspore.mint.arctan",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.arctan2",
+      "mindspore": "mindspore.mint.arctan2",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.arctanh",
+      "mindspore": "mindspore.mint.arctanh",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.argmax",
+      "mindspore": "mindspore.mint.argmax",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.argmin",
+      "mindspore": "mindspore.mint.argmin",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.argsort",
+      "mindspore": "mindspore.mint.argsort",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.asin",
+      "mindspore": "mindspore.mint.asin",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.asinh",
+      "mindspore": "mindspore.mint.asinh",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.atan",
+      "mindspore": "mindspore.mint.atan",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.atan2",
+      "mindspore": "mindspore.mint.atan2",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.atanh",
+      "mindspore": "mindspore.mint.atanh",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.baddbmm",
+      "mindspore": "mindspore.mint.baddbmm",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.bernoulli",
+      "mindspore": "mindspore.mint.bernoulli",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.bincount",
+      "mindspore": "mindspore.mint.bincount",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.bitwise_and",
+      "mindspore": "mindspore.mint.bitwise_and",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.bitwise_or",
+      "mindspore": "mindspore.mint.bitwise_or",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.bitwise_xor",
+      "mindspore": "mindspore.mint.bitwise_xor",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.bmm",
+      "mindspore": "mindspore.mint.bmm",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.broadcast_to",
+      "mindspore": "mindspore.mint.broadcast_to",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.cat",
+      "mindspore": "mindspore.mint.cat",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.cdist",
+      "mindspore": "mindspore.mint.cdist",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.chunk",
+      "mindspore": "mindspore.mint.chunk",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.ceil",
+      "mindspore": "mindspore.mint.ceil",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.clamp",
+      "mindspore": "mindspore.mint.clamp",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.clone",
+      "mindspore": "mindspore.mint.clone",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.concat",
+      "mindspore": "mindspore.mint.concat",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.count_nonzero",
+      "mindspore": "mindspore.mint.count_nonzero",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.cos",
+      "mindspore": "mindspore.mint.cos",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.cosh",
+      "mindspore": "mindspore.mint.cosh",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.cross",
+      "mindspore": "mindspore.mint.cross",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.cummax",
+      "mindspore": "mindspore.mint.cummax",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.cummin",
+      "mindspore": "mindspore.mint.cummin",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.cumprod",
+      "mindspore": "mindspore.mint.cumprod",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.cumsum",
+      "mindspore": "mindspore.mint.cumsum",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.diff",
+      "mindspore": "mindspore.mint.diff",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.div",
+      "mindspore": "mindspore.mint.div",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.divide",
+      "mindspore": "mindspore.mint.divide",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.dot",
+      "mindspore": "mindspore.mint.dot",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.einsum",
+      "mindspore": "mindspore.mint.einsum",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.empty",
+      "mindspore": "mindspore.mint.empty",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.empty_like",
+      "mindspore": "mindspore.mint.empty_like",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.equal",
+      "mindspore": "mindspore.mint.equal",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.eq",
+      "mindspore": "mindspore.mint.eq",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.erf",
+      "mindspore": "mindspore.mint.erf",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.erfc",
+      "mindspore": "mindspore.mint.erfc",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.erfinv",
+      "mindspore": "mindspore.mint.erfinv",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.exp",
+      "mindspore": "mindspore.mint.exp",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.exp2",
+      "mindspore": "mindspore.mint.exp2",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.expm1",
+      "mindspore": "mindspore.mint.expm1",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.eye",
+      "mindspore": "mindspore.mint.eye",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.float_power",
+      "mindspore": "mindspore.mint.float_power",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.flatten",
+      "mindspore": "mindspore.mint.flatten",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.flip",
+      "mindspore": "mindspore.mint.flip",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.floor",
+      "mindspore": "mindspore.mint.floor",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.fmod",
+      "mindspore": "mindspore.mint.fmod",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.frac",
+      "mindspore": "mindspore.mint.frac",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.full",
+      "mindspore": "mindspore.mint.full",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.full_like",
+      "mindspore": "mindspore.mint.full_like",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.gather",
+      "mindspore": "mindspore.mint.gather",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.greater",
+      "mindspore": "mindspore.mint.greater",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.greater_equal",
+      "mindspore": "mindspore.mint.greater_equal",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.gt",
+      "mindspore": "mindspore.mint.gt",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.histc",
+      "mindspore": "mindspore.mint.histc",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.index_select",
+      "mindspore": "mindspore.mint.index_select",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.inverse",
+      "mindspore": "mindspore.mint.inverse",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.isclose",
+      "mindspore": "mindspore.mint.isclose",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.isfinite",
+      "mindspore": "mindspore.mint.isfinite",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.isinf",
+      "mindspore": "mindspore.mint.isinf",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.isneginf",
+      "mindspore": "mindspore.mint.isneginf",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.le",
+      "mindspore": "mindspore.mint.le",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.lerp",
+      "mindspore": "mindspore.mint.lerp",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.less",
+      "mindspore": "mindspore.mint.less",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.less_equal",
+      "mindspore": "mindspore.mint.less_equal",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.linspace",
+      "mindspore": "mindspore.mint.linspace",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.log",
+      "mindspore": "mindspore.mint.log",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.log2",
+      "mindspore": "mindspore.mint.log2",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.log10",
+      "mindspore": "mindspore.mint.log10",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.logaddexp",
+      "mindspore": "mindspore.mint.logaddexp",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.logsumexp",
+      "mindspore": "mindspore.mint.logsumexp",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.log1p",
+      "mindspore": "mindspore.mint.log1p",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.logical_and",
+      "mindspore": "mindspore.mint.logical_and",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.logical_not",
+      "mindspore": "mindspore.mint.logical_not",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.logical_or",
+      "mindspore": "mindspore.mint.logical_or",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.logical_xor",
+      "mindspore": "mindspore.mint.logical_xor",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.lt",
+      "mindspore": "mindspore.mint.lt",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.masked_select",
+      "mindspore": "mindspore.mint.masked_select",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.matmul",
+      "mindspore": "mindspore.mint.matmul",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.max",
+      "mindspore": "mindspore.mint.max",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.maximum",
+      "mindspore": "mindspore.mint.maximum",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.mean",
+      "mindspore": "mindspore.mint.mean",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.mul",
+      "mindspore": "mindspore.mint.mul",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.min",
+      "mindspore": "mindspore.mint.min",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.minimum",
+      "mindspore": "mindspore.mint.minimum",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.mm",
+      "mindspore": "mindspore.mint.mm",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.multinomial",
+      "mindspore": "mindspore.mint.multinomial",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.mv",
+      "mindspore": "mindspore.mint.mv",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nan_to_num",
+      "mindspore": "mindspore.mint.nan_to_num",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.narrow",
+      "mindspore": "mindspore.mint.narrow",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.ne",
+      "mindspore": "mindspore.mint.ne",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.neg",
+      "mindspore": "mindspore.mint.neg",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.negative",
+      "mindspore": "mindspore.mint.negative",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nonzero",
+      "mindspore": "mindspore.mint.nonzero",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.norm",
+      "mindspore": "mindspore.mint.norm",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.ones",
+      "mindspore": "mindspore.mint.ones",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.ones_like",
+      "mindspore": "mindspore.mint.ones_like",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.outer",
+      "mindspore": "mindspore.mint.outer",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.permute",
+      "mindspore": "mindspore.mint.permute",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.polar",
+      "mindspore": "mindspore.mint.polar",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.pow",
+      "mindspore": "mindspore.mint.pow",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.prod",
+      "mindspore": "mindspore.mint.prod",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.rand",
+      "mindspore": "mindspore.mint.rand",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.rand_like",
+      "mindspore": "mindspore.mint.rand_like",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.randint",
+      "mindspore": "mindspore.mint.randint",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.randn",
+      "mindspore": "mindspore.mint.randn",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.randn_like",
+      "mindspore": "mindspore.mint.randn_like",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.randperm",
+      "mindspore": "mindspore.mint.randperm",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.ravel",
+      "mindspore": "mindspore.mint.ravel",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.reciprocal",
+      "mindspore": "mindspore.mint.reciprocal",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.remainder",
+      "mindspore": "mindspore.mint.remainder",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.reshape",
+      "mindspore": "mindspore.mint.reshape",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.roll",
+      "mindspore": "mindspore.mint.roll",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.round",
+      "mindspore": "mindspore.mint.round",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.rsqrt",
+      "mindspore": "mindspore.mint.rsqrt",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.scatter",
+      "mindspore": "mindspore.mint.scatter",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.scatter_add",
+      "mindspore": "mindspore.mint.scatter_add",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.select",
+      "mindspore": "mindspore.mint.select",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.sigmoid",
+      "mindspore": "mindspore.mint.sigmoid",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.sign",
+      "mindspore": "mindspore.mint.sign",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.sin",
+      "mindspore": "mindspore.mint.sin",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.sinc",
+      "mindspore": "mindspore.mint.sinc",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.sinh",
+      "mindspore": "mindspore.mint.sinh",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.sort",
+      "mindspore": "mindspore.mint.sort",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.split",
+      "mindspore": "mindspore.mint.split",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.sqrt",
+      "mindspore": "mindspore.mint.sqrt",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.square",
+      "mindspore": "mindspore.mint.square",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.squeeze",
+      "mindspore": "mindspore.mint.squeeze",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.stack",
+      "mindspore": "mindspore.mint.stack",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.std",
+      "mindspore": "mindspore.mint.std",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.std_mean",
+      "mindspore": "mindspore.mint.std_mean",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.sub",
+      "mindspore": "mindspore.mint.sub",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.sum",
+      "mindspore": "mindspore.mint.sum",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.swapaxes",
+      "mindspore": "mindspore.mint.swapaxes",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.t",
+      "mindspore": "mindspore.mint.t",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.tan",
+      "mindspore": "mindspore.mint.tan",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.tanh",
+      "mindspore": "mindspore.mint.tanh",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.tile",
+      "mindspore": "mindspore.mint.tile",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.trace",
+      "mindspore": "mindspore.mint.trace",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.transpose",
+      "mindspore": "mindspore.mint.transpose",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.tril",
+      "mindspore": "mindspore.mint.tril",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.triu",
+      "mindspore": "mindspore.mint.triu",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.trunc",
+      "mindspore": "mindspore.mint.trunc",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.unbind",
+      "mindspore": "mindspore.mint.unbind",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.unique",
+      "mindspore": "mindspore.mint.unique",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.unique_consecutive",
+      "mindspore": "mindspore.mint.unique_consecutive",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.unsqueeze",
+      "mindspore": "mindspore.mint.unsqueeze",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.var",
+      "mindspore": "mindspore.mint.var",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.var_mean",
+      "mindspore": "mindspore.mint.var_mean",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.where",
+      "mindspore": "mindspore.mint.where",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.xlogy",
+      "mindspore": "mindspore.mint.xlogy",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.zeros",
+      "mindspore": "mindspore.mint.zeros",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.zeros_like",
+      "mindspore": "mindspore.mint.zeros_like",
+      "description": "Consistent"
+    }
+  ]
+}

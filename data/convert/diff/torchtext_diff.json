@@ -1,0 +1,188 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 25,
+    "diff_rows": 25,
+    "version_hints": [
+      "TorchText 0.9.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.functional.custom_replace",
+      "mindspore": "mindspore.dataset.text.RegexReplace",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.functional.load_sp_model",
+      "mindspore": "mindspore.dataset.text.SentencePieceTokenizer",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.functional.numericalize_tokens_from_iterator",
+      "mindspore": "mindspore.dataset.text.Lookup",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.functional.sentencepiece_numericalizer",
+      "mindspore": "mindspore.dataset.text.SentencePieceTokenizer",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.functional.sentencepiece_tokenizer",
+      "mindspore": "mindspore.dataset.text.SentencePieceTokenizer",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.functional.simple_space_split",
+      "mindspore": "mindspore.dataset.text.WhitespaceTokenizer",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.utils.ngrams_iterator",
+      "mindspore": "mindspore.dataset.text.Ngram",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.AG_NEWS",
+      "mindspore": "mindspore.dataset.AGNewsDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.AmazonReviewFull",
+      "mindspore": "mindspore.dataset.AmazonReviewDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.AmazonReviewPolarity",
+      "mindspore": "mindspore.dataset.AmazonReviewDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.CoNLL2000Chunking",
+      "mindspore": "mindspore.dataset.CoNLL2000Dataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.DBpedia",
+      "mindspore": "mindspore.dataset.DBpediaDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.IMDB",
+      "mindspore": "mindspore.dataset.IMDBDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.IWSLT2016",
+      "mindspore": "mindspore.dataset.IWSLT2016Dataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.IWSLT2017",
+      "mindspore": "mindspore.dataset.IWSLT2017Dataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.PennTreebank",
+      "mindspore": "mindspore.dataset.PennTreebankDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.SogouNews",
+      "mindspore": "mindspore.dataset.SogouNewsDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.SQuAD1",
+      "mindspore": "mindspore.dataset.SQuADDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.SQuAD2",
+      "mindspore": "mindspore.dataset.SQuADDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.UDPOS",
+      "mindspore": "mindspore.dataset.UDPOSDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.WikiText103",
+      "mindspore": "mindspore.dataset.WikiTextDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.WikiText2",
+      "mindspore": "mindspore.dataset.WikiTextDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.YahooAnswers",
+      "mindspore": "mindspore.dataset.YahooAnswersDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.YelpReviewFull",
+      "mindspore": "mindspore.dataset.YelpReviewDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.YelpReviewPolarity",
+      "mindspore": "mindspore.dataset.YelpReviewDataset",
+      "description": "diff"
+    }
+  ]
+}

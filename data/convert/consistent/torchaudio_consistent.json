@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 27,
+    "diff_rows": 18,
+    "version_hints": [
+      "torchaudio",
+      "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.ComplexNorm",
+      "mindspore": "mindspore.dataset.audio.ComplexNorm",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.Fade",
+      "mindspore": "mindspore.dataset.audio.Fade",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.MFCC",
+      "mindspore": "mindspore.dataset.audio.MFCC",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.MuLawEncoding",
+      "mindspore": "mindspore.dataset.audio.MuLawEncoding",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.MuLawDecoding",
+      "mindspore": "mindspore.dataset.audio.MuLawDecoding",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.SlidingWindowCmn",
+      "mindspore": "mindspore.dataset.audio.SlidingWindowCmn",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.TimeStretch",
+      "mindspore": "mindspore.dataset.audio.TimeStretch",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.Vad",
+      "mindspore": "mindspore.dataset.audio.Vad",
+      "description": "Consistent"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.Vol",
+      "mindspore": "mindspore.dataset.audio.Vol",
+      "description": "Consistent"
+    }
+  ]
+}

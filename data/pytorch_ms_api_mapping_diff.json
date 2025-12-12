@@ -1,0 +1,816 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 515,
+    "diff_rows": 114,
+    "version_hints": [
+      "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "torchaudio",
+      "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "TorchVision 0.9.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.amax",
+      "mindspore": "mindspore.mint.amax",
+      "description": "The functions are consistent, but the default value of dim is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.amin",
+      "mindspore": "mindspore.mint.amin",
+      "description": "The functions are consistent, but the default value of dim is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.arange",
+      "mindspore": "mindspore.mint.arange",
+      "description": "The functions are consistent, but the default value of end is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.arcsin",
+      "mindspore": "mindspore.mint.arcsin",
+      "description": "Consistent functions, inconsistent parameter names."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.median",
+      "mindspore": "mindspore.mint.median",
+      "description": "The functions are consistent, but the default value of dim is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.meshgrid",
+      "mindspore": "mindspore.mint.meshgrid",
+      "description": "The functions are consistent, but the default value of indexing is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nansum",
+      "mindspore": "mindspore.mint.nansum",
+      "description": "The functions are consistent, but the default value of end is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.normal",
+      "mindspore": "mindspore.mint.normal",
+      "description": "The parameters of interface overloading are different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.randint_like",
+      "mindspore": "mindspore.mint.randint_like",
+      "description": "The functions are consistent, but the default value of low is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.repeat_interleave",
+      "mindspore": "mindspore.mint.repeat_interleave",
+      "description": "Consistent functions, PyTorch involves overloading."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.searchsorted",
+      "mindspore": "mindspore.mint.searchsorted",
+      "description": "The functions are consistent, but the default value of side is different."
+    },
+    {
+      "section": "torch",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.topk",
+      "mindspore": "mindspore.mint.topk",
+      "description": "The functions are consistent, but the default value of dim is different."
+    },
+    {
+      "section": "torch.distributed",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "-",
+      "mindspore": "mindspore.mint.distributed.destroy_process_group",
+      "description": "Unique to MindSpore"
+    },
+    {
+      "section": "torch.distributed",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.distributed.init_process_group",
+      "mindspore": "mindspore.mint.distributed.init_process_group",
+      "description": "Consistent functions, inconsistent parameter names."
+    },
+    {
+      "section": "torch.distributed",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.distributed.new_group",
+      "mindspore": "mindspore.mint.distributed.new_group",
+      "description": "Consistent functions, MindSpore has an additional parameter group_desc = None."
+    },
+    {
+      "section": "torch.distributed",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.distributed.scatter",
+      "mindspore": "mindspore.mint.distributed.scatter",
+      "description": "The functions are consistent, but the default value of scatter_list is different."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.BatchNorm1d",
+      "mindspore": "mindspore.mint.nn.BatchNorm1d",
+      "description": "Consistent functions, MindSpore is in inference mode by default."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.BatchNorm2d",
+      "mindspore": "mindspore.mint.nn.BatchNorm2d",
+      "description": "Consistent functions, MindSpore is in inference mode by default."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.BatchNorm3d",
+      "mindspore": "mindspore.mint.nn.BatchNorm3d",
+      "description": "Consistent functions, MindSpore is in inference mode by default."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.Dropout",
+      "mindspore": "mindspore.mint.nn.Dropout",
+      "description": "Consistent functions, MindSpore is in inference mode by default."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.Dropout2d",
+      "mindspore": "mindspore.mint.nn.Dropout2d",
+      "description": "Consistent functions, MindSpore is in inference mode by default."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.ELU",
+      "mindspore": "mindspore.mint.nn.ELU",
+      "description": "Consistent functions, MindSpore has no parameter inplace."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.Linear",
+      "mindspore": "mindspore.mint.nn.Linear",
+      "description": "Consistent function, MindSpore has two different parameters: weight_init = None and bias_init = None."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.SyncBatchNorm",
+      "mindspore": "mindspore.mint.nn.SyncBatchNorm",
+      "description": "Consistent functions, MindSpore is in inference mode by default."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.dropout2d",
+      "mindspore": "mindspore.mint.nn.functional.dropout2d",
+      "description": "Consistent functions, MindSpore does not contain the parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.elu",
+      "mindspore": "mindspore.mint.nn.functional.elu",
+      "description": "Consistent functions, MindSpore does not contain the parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.embedding",
+      "mindspore": "mindspore.mint.nn.functional.embedding",
+      "description": "Consistent functions, MindSpore does not contain the parameter sparse."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.grid_sample",
+      "mindspore": "mindspore.mint.nn.functional.grid_sample",
+      "description": "Consistent functions, but the default value of align_corners is different."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.hardsigmoid",
+      "mindspore": "mindspore.mint.nn.functional.hardsigmoid",
+      "description": "Consistent functions, MindSpore has no parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.hardswish",
+      "mindspore": "mindspore.mint.nn.functional.hardswish",
+      "description": "Consistent functions, MindSpore has no parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.interpolate",
+      "mindspore": "mindspore.mint.nn.functional.interpolate",
+      "description": "Consistent functions, MindSpore has no parameter antialias."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.leaky_relu",
+      "mindspore": "mindspore.mint.nn.functional.leaky_relu",
+      "description": "Consistent functions, MindSpore has no parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.mish",
+      "mindspore": "mindspore.mint.nn.functional.mish",
+      "description": "Consistent functions, MindSpore has no parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.selu",
+      "mindspore": "mindspore.mint.nn.functional.selu",
+      "description": "Consistent functions, MindSpore does not contain parameter inplace."
+    },
+    {
+      "section": "torch.nn.functional",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.functional.silu",
+      "mindspore": "mindspore.mint.nn.functional.silu",
+      "description": "Consistent functions, MindSpore does not contain parameter inplace."
+    },
+    {
+      "section": "torch.optim",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.optim.Adam",
+      "mindspore": "mindspore.mint.optim.Adam",
+      "description": "The functions are consistent, but PyTorch has some optimization parameters"
+    },
+    {
+      "section": "torch.optim",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.optim.AdamW",
+      "mindspore": "mindspore.mint.optim.AdamW",
+      "description": "The functions are consistent, but PyTorch has some optimization parameters"
+    },
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.data.DataLoader",
+      "mindspore": "mindspore.dataset.GeneratorDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.data.distributed.DistributedSampler",
+      "mindspore": "mindspore.dataset.DistributedSampler",
+      "description": "diff"
+    },
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.data.RandomSampler",
+      "mindspore": "mindspore.dataset.RandomSampler",
+      "description": "diff"
+    },
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.data.SequentialSampler",
+      "mindspore": "mindspore.dataset.SequentialSampler",
+      "description": "diff"
+    },
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.data.SubsetRandomSampler",
+      "mindspore": "mindspore.dataset.SubsetRandomSampler",
+      "description": "diff"
+    },
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.data.WeightedRandomSampler",
+      "mindspore": "mindspore.dataset.WeightedRandomSampler",
+      "description": "diff"
+    },
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.checkpoint.checkpoint",
+      "mindspore": "mindspore.nn.Cell.recompute",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.CMUARCTIC",
+      "mindspore": "mindspore.dataset.CMUArcticDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.GTZAN",
+      "mindspore": "mindspore.dataset.GTZANDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.LIBRITTS",
+      "mindspore": "mindspore.dataset.LibriTTSDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.LJSPEECH",
+      "mindspore": "mindspore.dataset.LJSpeechDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.SPEECHCOMMANDS",
+      "mindspore": "mindspore.dataset.SpeechCommandsDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.TEDLIUM",
+      "mindspore": "mindspore.dataset.TedliumDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.YESNO",
+      "mindspore": "mindspore.dataset.YesNoDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.AmplitudeToDB",
+      "mindspore": "mindspore.dataset.audio.AmplitudeToDB",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.ComputeDeltas",
+      "mindspore": "mindspore.dataset.audio.ComputeDeltas",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.FrequencyMasking",
+      "mindspore": "mindspore.dataset.audio.FrequencyMasking",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.GriffinLim",
+      "mindspore": "mindspore.dataset.audio.GriffinLim",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.InverseMelScale",
+      "mindspore": "mindspore.dataset.audio.InverseMelScale",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.MelScale",
+      "mindspore": "mindspore.dataset.audio.MelScale",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.MelSpectrogram",
+      "mindspore": "mindspore.dataset.audio.MelSpectrogram",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.Resample",
+      "mindspore": "mindspore.dataset.audio.Resample",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.SpectralCentroid",
+      "mindspore": "mindspore.dataset.audio.SpectralCentroid",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.Spectrogram",
+      "mindspore": "mindspore.dataset.audio.Spectrogram",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.TimeMasking",
+      "mindspore": "mindspore.dataset.audio.TimeMasking",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.functional.custom_replace",
+      "mindspore": "mindspore.dataset.text.RegexReplace",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.functional.load_sp_model",
+      "mindspore": "mindspore.dataset.text.SentencePieceTokenizer",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.functional.numericalize_tokens_from_iterator",
+      "mindspore": "mindspore.dataset.text.Lookup",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.functional.sentencepiece_numericalizer",
+      "mindspore": "mindspore.dataset.text.SentencePieceTokenizer",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.functional.sentencepiece_tokenizer",
+      "mindspore": "mindspore.dataset.text.SentencePieceTokenizer",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.functional.simple_space_split",
+      "mindspore": "mindspore.dataset.text.WhitespaceTokenizer",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.data.utils.ngrams_iterator",
+      "mindspore": "mindspore.dataset.text.Ngram",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.AG_NEWS",
+      "mindspore": "mindspore.dataset.AGNewsDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.AmazonReviewFull",
+      "mindspore": "mindspore.dataset.AmazonReviewDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.AmazonReviewPolarity",
+      "mindspore": "mindspore.dataset.AmazonReviewDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.CoNLL2000Chunking",
+      "mindspore": "mindspore.dataset.CoNLL2000Dataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.DBpedia",
+      "mindspore": "mindspore.dataset.DBpediaDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.IMDB",
+      "mindspore": "mindspore.dataset.IMDBDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.IWSLT2016",
+      "mindspore": "mindspore.dataset.IWSLT2016Dataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.IWSLT2017",
+      "mindspore": "mindspore.dataset.IWSLT2017Dataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.PennTreebank",
+      "mindspore": "mindspore.dataset.PennTreebankDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.SogouNews",
+      "mindspore": "mindspore.dataset.SogouNewsDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.SQuAD1",
+      "mindspore": "mindspore.dataset.SQuADDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.SQuAD2",
+      "mindspore": "mindspore.dataset.SQuADDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.UDPOS",
+      "mindspore": "mindspore.dataset.UDPOSDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.WikiText103",
+      "mindspore": "mindspore.dataset.WikiTextDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.WikiText2",
+      "mindspore": "mindspore.dataset.WikiTextDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.YahooAnswers",
+      "mindspore": "mindspore.dataset.YahooAnswersDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.YelpReviewFull",
+      "mindspore": "mindspore.dataset.YelpReviewDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchtext",
+      "header": "TorchText 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchtext.datasets.YelpReviewPolarity",
+      "mindspore": "mindspore.dataset.YelpReviewDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.CelebA",
+      "mindspore": "mindspore.dataset.CelebADataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.Cityscapes",
+      "mindspore": "mindspore.dataset.CityscapesDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.CIFAR10",
+      "mindspore": "mindspore.dataset.Cifar10Dataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.CIFAR100",
+      "mindspore": "mindspore.dataset.Cifar100Dataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.CocoDetection",
+      "mindspore": "mindspore.dataset.CocoDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.ImageFolder",
+      "mindspore": "mindspore.dataset.ImageFolderDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.MNIST",
+      "mindspore": "mindspore.dataset.MnistDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.VOCDetection",
+      "mindspore": "mindspore.dataset.VOCDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.datasets.VOCSegmentation",
+      "mindspore": "mindspore.dataset.VOCDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.ops.nms",
+      "mindspore": "mindspore.ops.NMSWithMask",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.ops.roi_align",
+      "mindspore": "mindspore.ops.ROIAlign",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.ConvertImageDtype",
+      "mindspore": "mindspore.dataset.transforms.TypeCast",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.Normalize",
+      "mindspore": "mindspore.dataset.vision.Normalize",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.Pad",
+      "mindspore": "mindspore.dataset.vision.Pad",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomAffine",
+      "mindspore": "mindspore.dataset.vision.RandomAffine",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomApply",
+      "mindspore": "mindspore.dataset.transforms.RandomApply",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomCrop",
+      "mindspore": "mindspore.dataset.vision.RandomCrop",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomGrayscale",
+      "mindspore": "mindspore.dataset.vision.RandomGrayscale",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomHorizontalFlip",
+      "mindspore": "mindspore.dataset.vision.RandomHorizontalFlip",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomPerspective",
+      "mindspore": "mindspore.dataset.vision.RandomPerspective",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomResizedCrop",
+      "mindspore": "mindspore.dataset.vision.RandomResizedCrop",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomRotation",
+      "mindspore": "mindspore.dataset.vision.RandomRotation",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.RandomVerticalFlip",
+      "mindspore": "mindspore.dataset.vision.RandomVerticalFlip",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.TenCrop",
+      "mindspore": "mindspore.dataset.vision.TenCrop",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.ToPILImage",
+      "mindspore": "mindspore.dataset.vision.ToPIL",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.transforms.ToTensor",
+      "mindspore": "mindspore.dataset.vision.ToTensor",
+      "description": "diff"
+    },
+    {
+      "section": "torchvision",
+      "header": "TorchVision 0.9.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchvision.ops.deform_conv2d",
+      "mindspore": "mindspore.ops.deformable_conv2d",
+      "description": "diff"
+    }
+  ]
+}

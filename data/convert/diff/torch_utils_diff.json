@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 7,
+    "diff_rows": 7,
+    "version_hints": [
+      "PyTorch 1.8.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.data.DataLoader",
+      "mindspore": "mindspore.dataset.GeneratorDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.data.distributed.DistributedSampler",
+      "mindspore": "mindspore.dataset.DistributedSampler",
+      "description": "diff"
+    },
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.data.RandomSampler",
+      "mindspore": "mindspore.dataset.RandomSampler",
+      "description": "diff"
+    },
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.data.SequentialSampler",
+      "mindspore": "mindspore.dataset.SequentialSampler",
+      "description": "diff"
+    },
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.data.SubsetRandomSampler",
+      "mindspore": "mindspore.dataset.SubsetRandomSampler",
+      "description": "diff"
+    },
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.data.WeightedRandomSampler",
+      "mindspore": "mindspore.dataset.WeightedRandomSampler",
+      "description": "diff"
+    },
+    {
+      "section": "torch.utils",
+      "header": "PyTorch 1.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.utils.checkpoint.checkpoint",
+      "mindspore": "mindspore.nn.Cell.recompute",
+      "description": "diff"
+    }
+  ]
+}
