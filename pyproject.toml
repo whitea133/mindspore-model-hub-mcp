@@ -5,7 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "beautifulsoup4>=4.14.2",
+    "lxml>=6.0.2",
     "mcp[cli]>=1.21.2",
+    "requests>=2.32.5",
 ]
 
 [[tool.uv.index]]
