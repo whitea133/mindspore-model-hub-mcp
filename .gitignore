@@ -5,6 +5,14 @@ build/
 dist/
 wheels/
 *.egg-info
+AGENTS.md
+.ruff_cache/
+
+#src
 
 # Virtual environments
 .venv
+
+# root directory
+!/README.md
+/*.md
