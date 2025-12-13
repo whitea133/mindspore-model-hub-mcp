@@ -6,9 +6,9 @@ import inspect
 
 from mcp.server.fastmcp import FastMCP
 
-from . import prompt as prompt_module
-from . import resource as resource_module
-from . import tools
+from mindspore_mcp import prompt as prompt_module
+from mindspore_mcp import resource as resource_module
+from mindspore_mcp import tools
 
 
 def register_module_functions(mcp: FastMCP, module) -> None:
@@ -18,6 +18,7 @@ def register_module_functions(mcp: FastMCP, module) -> None:
             continue
         if fn.__name__.startswith("_"):     # 过滤私有函数
             continue
+        # print(f"[REGISTER TOOL] {fn.__name__}")  # 临时调试
         mcp.add_tool(fn)
 
 
