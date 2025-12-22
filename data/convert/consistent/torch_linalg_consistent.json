@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 4,
+    "diff_rows": 0,
+    "version_hints": [
+      "PyTorch 2.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torch.linalg",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.linalg.inv",
+      "mindspore": "mindspore.mint.linalg.inv",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.linalg",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.linalg.matrix_norm",
+      "mindspore": "mindspore.mint.linalg.matrix_norm",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.linalg",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.linalg.norm",
+      "mindspore": "mindspore.mint.linalg.norm",
+      "description": "Consistent"
+    },
+    {
+      "section": "torch.linalg",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.linalg.vector_norm",
+      "mindspore": "mindspore.mint.linalg.vector_norm",
+      "description": "Consistent"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 27,
+    "diff_rows": 18,
+    "version_hints": [
+      "torchaudio",
+      "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.CMUARCTIC",
+      "mindspore": "mindspore.dataset.CMUArcticDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.GTZAN",
+      "mindspore": "mindspore.dataset.GTZANDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.LIBRITTS",
+      "mindspore": "mindspore.dataset.LibriTTSDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.LJSPEECH",
+      "mindspore": "mindspore.dataset.LJSpeechDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.SPEECHCOMMANDS",
+      "mindspore": "mindspore.dataset.SpeechCommandsDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.TEDLIUM",
+      "mindspore": "mindspore.dataset.TedliumDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.datasets.YESNO",
+      "mindspore": "mindspore.dataset.YesNoDataset",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.AmplitudeToDB",
+      "mindspore": "mindspore.dataset.audio.AmplitudeToDB",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.ComputeDeltas",
+      "mindspore": "mindspore.dataset.audio.ComputeDeltas",
+      "description": "The functions are consistent, but the parameter names are inconsistent."
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.FrequencyMasking",
+      "mindspore": "mindspore.dataset.audio.FrequencyMasking",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.GriffinLim",
+      "mindspore": "mindspore.dataset.audio.GriffinLim",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.InverseMelScale",
+      "mindspore": "mindspore.dataset.audio.InverseMelScale",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.MelScale",
+      "mindspore": "mindspore.dataset.audio.MelScale",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.MelSpectrogram",
+      "mindspore": "mindspore.dataset.audio.MelSpectrogram",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.Resample",
+      "mindspore": "mindspore.dataset.audio.Resample",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.SpectralCentroid",
+      "mindspore": "mindspore.dataset.audio.SpectralCentroid",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.Spectrogram",
+      "mindspore": "mindspore.dataset.audio.Spectrogram",
+      "description": "diff"
+    },
+    {
+      "section": "torchaudio",
+      "header": "TorchAudio 0.8.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torchaudio.transforms.TimeMasking",
+      "mindspore": "mindspore.dataset.audio.TimeMasking",
+      "description": "diff"
+    }
+  ]
+}

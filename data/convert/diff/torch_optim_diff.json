@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 2,
+    "diff_rows": 2,
+    "version_hints": [
+      "PyTorch 2.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torch.optim",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.optim.Adam",
+      "mindspore": "mindspore.mint.optim.Adam",
+      "description": "The functions are consistent, but PyTorch has some optimization parameters"
+    },
+    {
+      "section": "torch.optim",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.optim.AdamW",
+      "mindspore": "mindspore.mint.optim.AdamW",
+      "description": "The functions are consistent, but PyTorch has some optimization parameters"
+    }
+  ]
+}

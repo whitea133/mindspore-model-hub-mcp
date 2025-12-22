@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "source": "https://www.mindspore.cn/docs/en/master/note/api_mapping/pytorch_api_mapping.html",
+    "fetched_at": "2025-12-12T19:18:41Z",
+    "total_rows": 58,
+    "diff_rows": 8,
+    "version_hints": [
+      "PyTorch 2.1 APIs MindSpore APIs Descriptions"
+    ]
+  },
+  "items": [
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.BatchNorm1d",
+      "mindspore": "mindspore.mint.nn.BatchNorm1d",
+      "description": "Consistent functions, MindSpore is in inference mode by default."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.BatchNorm2d",
+      "mindspore": "mindspore.mint.nn.BatchNorm2d",
+      "description": "Consistent functions, MindSpore is in inference mode by default."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.BatchNorm3d",
+      "mindspore": "mindspore.mint.nn.BatchNorm3d",
+      "description": "Consistent functions, MindSpore is in inference mode by default."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.Dropout",
+      "mindspore": "mindspore.mint.nn.Dropout",
+      "description": "Consistent functions, MindSpore is in inference mode by default."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.Dropout2d",
+      "mindspore": "mindspore.mint.nn.Dropout2d",
+      "description": "Consistent functions, MindSpore is in inference mode by default."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.ELU",
+      "mindspore": "mindspore.mint.nn.ELU",
+      "description": "Consistent functions, MindSpore has no parameter inplace."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.Linear",
+      "mindspore": "mindspore.mint.nn.Linear",
+      "description": "Consistent function, MindSpore has two different parameters: weight_init = None and bias_init = None."
+    },
+    {
+      "section": "torch.nn",
+      "header": "PyTorch 2.1 APIs MindSpore APIs Descriptions",
+      "pytorch": "torch.nn.SyncBatchNorm",
+      "mindspore": "mindspore.mint.nn.SyncBatchNorm",
+      "description": "Consistent functions, MindSpore is in inference mode by default."
+    }
+  ]
+}

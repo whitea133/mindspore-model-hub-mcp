@@ -16,3 +16,5 @@ AGENTS.md
 # root directory
 !/README.md
 /*.md
+/.pytest_cache/
+/AGENTS.md

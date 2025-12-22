@@ -5,10 +5,10 @@ from __future__ import annotations
 import inspect
 
 from mcp.server.fastmcp import FastMCP
+from mindspore_tools_mcp import prompt as prompt_module
+from mindspore_tools_mcp import resource as resource_module
+from mindspore_tools_mcp import tools
 
-from . import prompt as prompt_module
-from . import resource as resource_module
-from . import tools
 
 
 def register_module_functions(mcp: FastMCP, module) -> None:
@@ -18,6 +18,7 @@ def register_module_functions(mcp: FastMCP, module) -> None:
             continue
         if fn.__name__.startswith("_"):     # 过滤私有函数
             continue
+        # print(f"[REGISTER TOOL] {fn.__name__}")  # 临时调试
         mcp.add_tool(fn)
 
 
@@ -68,5 +69,6 @@ def create_server() -> FastMCP:
 
 
 if __name__ == "__main__":
+    print("Starting MindSpore Models MCP server...")
     server = create_server()
     server.run(transport="stdio")
