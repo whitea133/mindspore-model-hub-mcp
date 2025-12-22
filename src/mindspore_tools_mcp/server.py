@@ -69,5 +69,6 @@ def create_server() -> FastMCP:
 
 
 if __name__ == "__main__":
+    print("Starting MindSpore Models MCP server...")
     server = create_server()
     server.run(transport="stdio")

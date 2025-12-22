@@ -19,7 +19,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/mindspore_model_hub_mcp"]
+packages = ["src/mindspore_tools_mcp"]
 
 [[tool.uv.index]]
 name = "aliyun"

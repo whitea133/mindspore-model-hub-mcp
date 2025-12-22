@@ -519,7 +519,7 @@ wheels = [
 ]
 
 [[package]]
-name = "mindspore-model-hub-mcp"
+name = "mindspore-tools-mcp"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
