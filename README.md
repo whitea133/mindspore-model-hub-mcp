@@ -1,67 +1,72 @@
-# mindspore-model-hub-mcp
+# mindspore-tools-mcp
 
-基于 MCP 的 MindSpore 开发工具包：提供官方模型清单的规范化查询/筛选，预留 PyTorch ↔ MindSpore 互转能力的扩展空间。
+基于 MCP 的 MindSpore 模型与 API 映射工具包：提供官方模型清单的标准化查询，并内置 PyTorch → MindSpore API 映射与代码翻译辅助。
 
-## 特性
-- 官方模型清单：`data/mindspore_official_models.json` 统一字段（group/category/task/suite/links/metrics 等）。
-- MCP 工具：`list_models` 支持 group/category/task/suite/关键词过滤；`get_model_info` 返回单个模型详情。
-- MCP 资源：`mindspore://models/official` 暴露全量清单，便于客户端缓存或本地筛选。
-- 抓取脚本：`scripts/update_model_list.py` 从官方页面生成最新 JSON。
+## 功能特性
+- 官方模型检索：`list_models` 支持按 group/category/task/suite 或关键词过滤；`get_model_info` 返回单模型详情。
+- 资源暴露：`mindspore://models/official` 提供完整模型清单；`mindspore://opmap/...` 资源暴露 PyTorch→MindSpore API 映射（全量/分 section、consistent/diff）。
+- 映射工具：`query_op_mapping` 支持 section 过滤与模糊匹配；`translate_pytorch_code` 自动替换一致 API，并为差异项输出提示。
+- 数据脚本：`scripts/update_model_list.py` 更新官方模型 JSON，`scripts/fetch_api_mapping.py` 抓取并刷新 API 映射。
 
 ## 目录结构
 ```
-mindspore-model-hub-mcp/
-├─ data/                      # 官方模型数据
-│  └─ mindspore_official_models.json
-├─ scripts/                   # 辅助脚本
-│  ├─ update_model_list.py    # 抓取并生成模型 JSON
-│  └─ __init__.py
+mindspore-tools-mcp/
+├─ data/                      # 官方模型与 API 映射数据
+│  ├─ convert/                # 分 section 的映射分片
+│  ├─ mindspore_official_models.json
+│  ├─ pytorch_ms_api_mapping_consistent.json
+│  └─ pytorch_ms_api_mapping_diff.json
+├─ scripts/                   # 数据/映射更新脚本
+│  ├─ update_model_list.py
+│  └─ fetch_api_mapping.py
 ├─ src/
-│  └─ mindspore_mcp/          # 代码主体
-│     ├─ server.py            # MCP 服务器（自动注册 tools/resources/prompts）
-│     ├─ tools.py             # list_models / get_model_info
-│     ├─ resource.py          # 资源定义
-│     ├─ prompt.py            # prompt 定义
+│  └─ mindspore_tools_mcp/    # MCP 服务
+│     ├─ server.py            # MCP 入口，自动注册 tools/resources/prompts
+│     ├─ tools.py             # list_models/get_model_info/query_op_mapping/translate_pytorch_code 等
+│     ├─ resource.py          # MCP 资源定义
+│     ├─ prompt.py            # prompt 注册
 │     ├─ backup_server.py
-│     ├─ config.py
-│     └─ __init__.py
+│     └─ main.py
 ├─ tests/
+│  └─ test.py                 # smoke check
 ├─ pyproject.toml
-└─ uv.lock / README.md ...
+└─ uv.lock
 ```
 
-## 快速开始（下载压缩包方式）
-1) 下载项目压缩包并解压到本地路径（例如 `E:/CodeProject/mindspore-model-hub-mcp`），进入该目录。
-2) 安装依赖：
-```bash
-uv sync
-```
-3) 客户端配置（示例，需按实际路径调整）：
-```jsonc
-// cline_mcp_settings.json 片段
-"mindspore_model_hub_mcp": {
-  "command": "uv",
-  "args": [
-    "--directory",
-    "E:/CodeProject/mindspore-model-hub-mcp",
-    "run",
-    "python",
-    "-m",
-    "mindspore_mcp.server"
-  ],
-  "autoApprove": []
-}
-```
-4) 调用示例：
-   - 工具：`list_models(task="text-generation")`、`get_model_info("llama2")`
-   - 资源：读取 `mindspore://models/official` 获取全量清单
-5) 更新数据（可选）：
-```bash
-uv run python scripts/update_model_list.py
-```
+## 快速开始
+1. 安装依赖
+   ```bash
+   uv sync
+   ```
+2. 启动 MCP 服务（stdio）
+   ```bash
+   uv run python -m mindspore_tools_mcp.server
+   ```
+3. 客户端配置示例（需按本地路径调整）
+   ```jsonc
+   // cline_mcp_settings.json 片段
+   "mindspore_tools_mcp": {
+     "command": "uv",
+     "args": [
+       "--directory",
+       "E:/CodeProject/mindspore-tools-mcp",
+       "run",
+       "python",
+       "-m",
+       "mindspore_tools_mcp.server"
+     ],
+     "autoApprove": []
+   }
+   ```
+4. 调用示例
+   - 工具：`list_models(task="text-generation")`、`get_model_info("llama2")`、`query_op_mapping("torch.addmm")`、`translate_pytorch_code("import torch; torch.addmm(...)")`
+   - 资源：读取 `mindspore://models/official` 或 `mindspore://opmap/pytorch/consistent`
+5. 更新数据（可选）
+   ```bash
+   uv run python scripts/update_model_list.py       # 刷新官方模型清单
+   uv run python scripts/fetch_api_mapping.py       # 刷新 API 映射数据
+   ```
 
-可选：如果需要在 IDE/测试中直接 `import mindspore_mcp`，可执行一次 `uv pip install -e .` 进行可编辑安装。
-
-## 使用提示
-- 客户端如不支持 `read_resource`，可用工具接口获取数据；支持资源的客户端可读取全量 JSON 后本地过滤，避免大 token 消耗。
-- 可编辑安装后代码改动会实时生效；已有进程需重启/重载才会读取新代码。
+## 额外说明
+- 若客户端不支持 `read_resource`，可通过工具接口获取同样数据并在本地缓存过滤。
+- 如需在 IDE/测试中直接引用，执行一次 `uv pip install -e .` 进行可编辑安装。
