@@ -1,3 +1,3 @@
-import mindspore_mcp
+import mindspore_tools_mcp
 
 print("test")

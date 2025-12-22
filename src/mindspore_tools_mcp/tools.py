@@ -8,7 +8,7 @@ import re
 from pathlib import Path
 from typing import Any
 
-from mindspore_mcp.resource import get_official_models
+from mindspore_tools_mcp.resource import get_official_models
 
 MODEL_FILE = Path(__file__).resolve().parents[2] / "data" / "mindspore_official_models.json"
 OPMAP_CONSISTENT_FILE = Path(__file__).resolve().parents[2] / "data" / "pytorch_ms_api_mapping_consistent.json"
