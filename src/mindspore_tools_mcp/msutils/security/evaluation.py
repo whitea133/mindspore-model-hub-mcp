@@ -29,7 +29,7 @@ def evaluate_robustness(
         鲁棒性评估结果
     
     Example:
-        >>> from msutils.security import evaluate_robustness, FGSM
+        >>> from mindspore_tools_mcp.msutils.security import evaluate_robustness, FGSM
         >>> attack = FGSM(model, epsilon=0.03)
         >>> results = evaluate_robustness(model, test_dataset, attack)
         >>> print(f"Clean accuracy: {results['clean_acc']:.2%}")
@@ -40,7 +40,7 @@ def evaluate_robustness(
     
     # 如果没有指定攻击，使用 FGSM
     if attack is None:
-        from msutils.security.attacks import FGSM
+        from mindspore_tools_mcp.msutils.security.attacks import FGSM
         attack = FGSM(model, **attack_params)
     
     # 评估清洁样本准确率
@@ -123,14 +123,14 @@ def auto_attack(
         各攻击方法的评估结果
     
     Example:
-        >>> from msutils.security import auto_attack
+        >>> from mindspore_tools_mcp.msutils.security import auto_attack
         >>> results = auto_attack(model, test_dataset)
         >>> for attack_name, metrics in results.items():
         ...     print(f"{attack_name}: {metrics['adversarial_accuracy']:.2%}")
     """
     # 默认攻击方法
     if attacks is None:
-        from msutils.security.attacks import FGSM, PGD, BIM
+        from mindspore_tools_mcp.msutils.security.attacks import FGSM, PGD, BIM
         attacks = [
             ('FGSM', FGSM(model, epsilon=epsilon)),
             ('PGD', PGD(model, epsilon=epsilon, alpha=epsilon/3, steps=10)),
@@ -250,7 +250,7 @@ def compute_adversarial_distance(
         
         # 获取模型输出
         output = model(image_ms)
-        output = output.asnumpy()[0]
+        output = output.asnumpy()[0] if hasattr(output, 'asnumpy') else np.array(output).flatten()
         
         # 计算 logit 差异
         target_logit = output[label]
@@ -310,7 +310,8 @@ def certify_robustness(
             
             # 简化版认证：检查对抗距离
             from mindspore import Tensor
-            output = model(Tensor(image.astype(np.float32))).asnumpy()[0]
+            output = model(Tensor(image.astype(np.float32)))
+            output = output.asnumpy()[0] if hasattr(output, 'asnumpy') else np.array(output).flatten()
             predicted = np.argmax(output)
             
             if predicted == label:

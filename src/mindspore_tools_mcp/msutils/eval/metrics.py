@@ -454,8 +454,8 @@ class ClassificationMetrics:
         Returns:
             指标字典
         """
-        predictions = np.concatenate(self.predictions, axis=0)
-        labels = np.concatenate(self.labels, axis=0)
+        predictions = np.concatenate(self.predictions, axis=0).flatten()
+        labels = np.concatenate(self.labels, axis=0).flatten()
         
         if self.num_classes is None:
             self.num_classes = len(np.unique(labels))
