@@ -9,18 +9,22 @@
 
 ## [Unreleased] - 开发中
 
+### 📝 文档更新
+- 新增 [场景化使用指南](docs/USAGE_SCENARIOS.md)（5 个真实场景完整演示）
+- 新增 [架构文档](docs/architecture.md)
+- README 优化：增加目录导航、文档链接区块
+- 合并 README_CN.md → README.md，统一单文件
+- examples/README.md 增加场景文档跳转链接
+- pyproject.toml requires-python 收紧至 >=3.10
+
+### ✅ 测试扩展
+- 新增 ResNet50 完整训练示例（train + evaluate_robustness）
+- 测试用例扩充至 129 个
+
 ### 🛠️ 持续优化
-
-#### 文档完善
-- 新增 README_CN.md（完整中文 README）
-- 新增 CONTRIBUTING.md（贡献指南）
-- 新增 LICENSE（MIT 许可证）
-- 新增 CHANGELOG.md（版本更新日志）
-
-#### 代码质量
 - 代码评分器（Linter）4 维度、26 条规则完善
-- msutils 工具库持续扩展
-- API 示例注册表持续扩充
+- msutils 工具库持续扩展（25 模块 / 5,664 行）
+- API 示例注册表扩充至 34 个 API
 
 ---
 
