@@ -2,8 +2,8 @@
 name = "mindspore-tools-mcp"
 version = "1.0.0"
 description = "MindSpore Tools MCP - 基于 MCP 协议的 MindSpore 开发工具集（模型检索、API 映射、代码评分、训练模板）"
-readme = "README_CN.md"
-requires-python = ">=3.8"
+readme = "README.md"
+requires-python = ">=3.10"
 dependencies = [
     "beautifulsoup4>=4.14.2",
     "lxml>=6.0.2",
