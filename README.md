@@ -7,11 +7,13 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-Ready-purple?style=flat-square)
 ![Tests](https://img.shields.io/github/actions/workflow/status/whitea133/mindspore-tools-mcp/ci.yml?branch=main&label=Tests&style=flat-square)
-![Release](https://img.shields.io/github/v/release/whitea133/mindspore-tools-mcp?style=flat-square)
-
 **基于 MCP 的 MindSpore 开发工具套件**
 
 提供官方模型清单查询、智能模型推荐、PyTorch→MindSpore API 映射、以及 **AI 安全、数据处理、训练工具** 等开发必备功能。
+
+> 📦 29 个 MCP 工具，一键连接 Claude / Cline / Cursor 等 AI 客户端
+
+<img src="docs/mcp_present.gif" width="100%" alt="Claude Code MCP 连接演示">
 
 </div>
 
