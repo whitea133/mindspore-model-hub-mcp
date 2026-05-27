@@ -3,9 +3,11 @@
 <div align="center">
 
 ![MindSpore](https://img.shields.io/badge/MindSpore-2.0+-orange?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-Ready-purple?style=flat-square)
+![Tests](https://img.shields.io/github/actions/workflow/status/whitea133/mindspore-tools-mcp/ci.yml?branch=main&label=Tests&style=flat-square)
+![Release](https://img.shields.io/github/v/release/whitea133/mindspore-tools-mcp?style=flat-square)
 
 **基于 MCP 的 MindSpore 开发工具套件**
 
@@ -35,6 +37,7 @@
 
 | 文档 | 说明 |
 |------|------|
+| [🚀 快速上手](docs/quickstart.html) | 3 分钟配置 Cline，含实机演示 |
 | [📖 场景化使用指南](docs/USAGE_SCENARIOS.md) | 5 个真实场景，从模型选型到代码审查的完整演示 |
 | [🏗️ 架构文档](docs/architecture.md) | 项目整体架构、模块关系和设计思路 |
 | [📋 使用示例](examples/) | 17 个独立示例脚本，可直接运行 |
@@ -178,25 +181,82 @@ mindspore-tools-mcp/
 ### 1️⃣ 安装依赖
 
 ```bash
+git clone https://github.com/whitea133/mindspore-tools-mcp.git
+cd mindspore-tools-mcp
 uv sync
 ```
 
-### 2️⃣ 启动 MCP 服务
+### 2️⃣ 配置 MCP 客户端
 
-```bash
-uv run python -m mindspore_tools_mcp.server
+将下面的 `your-path` 替换为你的实际项目路径（如 `E:/CodeProject/mindspore-tools-mcp`），然后按你使用的客户端配置：
+
+<!-- tabs:start -->
+
+#### **Claude Code (CLI)**
+
+项目级配置（在项目根目录创建 `.mcp.json`）：
+
+```json
+{
+  "mcpServers": {
+    "mindspore_tools_mcp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "your-path",
+        "run",
+        "python",
+        "-m",
+        "mindspore_tools_mcp.server"
+      ]
+    }
+  }
+}
 ```
 
-### 3️⃣ 客户端配置
+也可以用命令行一步添加：
 
-```jsonc
-// cline_mcp_settings.json
+```bash
+claude mcp add mindspore_tools_mcp -- uv --directory your-path run python -m mindspore_tools_mcp.server
+```
+
+> 验证：启动 `claude` 后输入 `/mcp` 查看连接状态。
+
+#### **Claude Desktop**
+
+编辑配置文件（路径：`%APPDATA%\Claude\claude_desktop_config.json`）：
+
+```json
+{
+  "mcpServers": {
+    "mindspore_tools_mcp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "your-path",
+        "run",
+        "python",
+        "-m",
+        "mindspore_tools_mcp.server"
+      ]
+    }
+  }
+}
+```
+
+> 配置后需完全退出 Claude Desktop（包括托盘图标）再重新打开。
+
+#### **Cline (VS Code)**
+
+编辑 Cline 配置文件（路径：`~/.cline/cline_mcp_settings.json`）：
+
+```json
 {
   "mindspore_tools_mcp": {
     "command": "uv",
     "args": [
       "--directory",
-      "E:/CodeProject/mindspore-tools-mcp",
+      "your-path",
       "run",
       "python",
       "-m",
@@ -205,6 +265,46 @@ uv run python -m mindspore_tools_mcp.server
     "autoApprove": []
   }
 }
+```
+
+#### **Cursor**
+
+编辑项目级配置（路径：`your-project/.cursor/mcp.json`）：
+
+```json
+{
+  "mcpServers": {
+    "mindspore_tools_mcp": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "your-path",
+        "run",
+        "python",
+        "-m",
+        "mindspore_tools_mcp.server"
+      ]
+    }
+  }
+}
+```
+
+<!-- tabs:end -->
+
+### 3️⃣ 开始使用
+
+配置完成后，重启你的 AI 客户端，即可在对话中直接调用所有工具：
+
+```
+💬 你：推荐一个适合在 Ascend 上做图像分类的模型
+
+🤖 AI：[自动调用 recommend_models 工具]
+    推荐 ResNet50 — 精度 76.1% | 参数 25.6M | 原生支持 Ascend...
+
+💬 你：帮我生成 ResNet50 在 CIFAR-10 上的训练脚本
+
+🤖 AI：[自动调用 generate_training_template 工具]
+    ✅ 已生成 train_resnet50_cifar10.py，包含完整训练流程...
 ```
 
 ---

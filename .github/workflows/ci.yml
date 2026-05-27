@@ -7,7 +7,7 @@ on:
     branches: [master, main]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -19,6 +19,12 @@ jobs:
 
     - name: Install uv
       run: curl -LsSf https://astral.sh/uv/install.sh | sh
+
+    - name: Install dependencies
+      run: uv sync --extra dev
+
+    - name: Run tests
+      run: uv run python -m pytest tests/test_core.py -s --tb=short -o addopts= --no-header
 
     - name: Build package
       run: uv build
