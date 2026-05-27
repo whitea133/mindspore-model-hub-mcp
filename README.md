@@ -621,6 +621,8 @@ get_quick_reference("nn.Conv2d")
 
 欢迎提交 Issue 和 Pull Request！
 
+> 💡 本项目欢迎 MindSpore 官方社区收录，如有意向请通过 [Issue](https://github.com/whitea133/mindspore-tools-mcp/issues) 联系。
+
 ---
 
 ## 📝 许可
