@@ -324,6 +324,11 @@ claude mcp add mindspore_tools_mcp -- uv --directory your-path run python -m min
 | `query_op_mapping` | 查询 API 映射 | `query_op_mapping("torch.add")` |
 | `diagnose_translation` | 诊断代码翻译 | `diagnose_translation(py_code, ms_code)` |
 
+<div align="center">
+<img src="docs/performent01.gif" width="100%" alt="智能模型推荐演示">
+<p><i>💡 输入自然语言描述，AI 自动调用 MCP 工具推荐最适合的模型</i></p>
+</div>
+
 ### AI 安全工具 🆕
 
 | 工具名 | 说明 | 示例 |
@@ -365,6 +370,11 @@ claude mcp add mindspore_tools_mcp -- uv --directory your-path run python -m min
 
 ### 代码评分器 🆕
 
+<div align="center">
+<img src="docs/performent02.gif" width="100%" alt="代码评分器演示">
+<p><i>💡 粘贴 MindSpore 代码，自动评分并给出各维度改进建议</i></p>
+</div>
+
 | 工具名 | 说明 | 示例 |
 |--------|------|------|
 | `lint_mindspore_code` | 代码质量评分 | `lint_mindspore_code(code, level="all")` |
@@ -380,6 +390,11 @@ claude mcp add mindspore_tools_mcp -- uv --directory your-path run python -m min
 | `generate_quick_start` | 快速入门脚本 | `generate_quick_start("beginner")` |
 
 ### API 示例生成器 🆕
+
+<div align="center">
+<img src="docs/performent03.gif" width="100%" alt="API 示例查询演示">
+<p><i>💡 查询任意 MindSpore API 的用法、参数说明和完整示例代码</i></p>
+</div>
 
 | 工具名 | 说明 | 示例 |
 |--------|------|------|
