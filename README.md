@@ -188,6 +188,19 @@ cd mindspore-tools-mcp
 uv sync
 ```
 
+> 💡 **基础安装即可使用大部分工具**（模型查询、代码评分器、msutils 配置生成等 24 个工具）。
+>
+> 如需使用 **全部 29 个工具**（训练模板生成器、API 示例查询），需安装 MindSpore：
+>
+> ```bash
+> uv sync --extra full
+> ```
+>
+> | 安装方式 | 可用工具数 | 说明 |
+> |---------|-----------|------|
+> | `uv sync` | 24 个 | 基础工具（模型查询、代码评分器、msutils 配置生成等） |
+> | `uv sync --extra full` | 29 个 | 额外启用：训练模板生成器、API 示例查询 |
+
 ### 2️⃣ 配置 MCP 客户端
 
 将下面的 `your-path` 替换为你的实际项目路径（如 `E:/CodeProject/mindspore-tools-mcp`），然后按你使用的客户端配置：
